@@ -1,0 +1,7 @@
+exchange([9 6 3; 4 2 0; 2 3 4; 1 3 5], 4, 1)
+M = eye(5)
+M = exchange(M, 2, 5)
+M = exchange(M, 3)
+M = exchange(M)
+%exchange([9 6 3; 4 2 0; 2 3 4; 1 3 5], 4.8, 1)
+exchange([1 3 6 9; 2 4 8 10], 0, 2)
